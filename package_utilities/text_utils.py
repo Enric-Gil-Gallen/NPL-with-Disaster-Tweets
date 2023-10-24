@@ -1,5 +1,6 @@
 # Imports
 import re
+import string
 
 # Constantes 
 __URL = "https?://\S+|www\.\S+''"
