@@ -1,6 +1,8 @@
 # Imports
 import re
 import string
+import nltk
+from nltk.corpus import stopwords
 
 # Constantes 
 __URL = "https?://\S+|www\.\S+''"
@@ -66,3 +68,33 @@ def remove_punctuation(text):
     """
     
     return text.translate(str.maketrans('', '', string.punctuation))
+
+import nltk
+from nltk.corpus import stopwords
+
+def remove_stopwords(text):
+    """
+    Elimina las stopwords en inglés del texto proporcionado.
+
+    Args:
+    - text (str): El texto del cual se desean eliminar las stopwords.
+
+    Returns:
+    - str: El texto sin las stopwords.
+
+    Raises:
+    - Exception: Si las stopwords de nltk no están descargadas y no se pueden descargar.
+    """
+    # Verifica si las stopwords están descargadas
+    if not nltk.data.find('corpora/stopwords'):
+        try:
+            nltk.download('stopwords')
+        except:
+            raise Exception("No se pudo descargar las stopwords de nltk. Verifica tu conexión a internet y reintenta.")
+    
+    stopwords_set = set(stopwords.words('english'))
+    
+    text = text.lower()  # Convertir el texto a minúsculas
+    words = text.split()
+    filtered_words = [word for word in words if word not in stopwords_set]
+    return ' '.join(filtered_words)

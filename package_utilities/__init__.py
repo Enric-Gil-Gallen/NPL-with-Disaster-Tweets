@@ -1,4 +1,4 @@
-from .text_utils import remove_url, remove_emoji, remove_punctuation
+from .text_utils import remove_url, remove_emoji, remove_punctuation, remove_stopwords
 from .html_utils import remove_html
 
 def clean_text_field(pandas_dataset):
@@ -26,6 +26,7 @@ def clean_text_field(pandas_dataset):
         df['text'] = pandas_dataset['text'].apply(remove_html)
         df['text'] = pandas_dataset['text'].apply(remove_emoji)
         df['text'] = pandas_dataset['text'].apply(remove_punctuation)
+        df['text'] = pandas_dataset['text'].apply(remove_stopwords)
 
         return df
 
