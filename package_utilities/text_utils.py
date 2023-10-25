@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 # Constantes 
 __URL = "https?://\S+|www\.\S+''"
 
-# Metodos
+# Métodos
 
 def remove_url(text):
     """
@@ -68,9 +68,6 @@ def remove_punctuation(text):
     """
     
     return text.translate(str.maketrans('', '', string.punctuation))
-
-import nltk
-from nltk.corpus import stopwords
 
 def remove_stopwords(text):
     """
