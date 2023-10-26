@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1%20-%20Inteligencia%20Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/mlruns/200800820279152034/571aec43fbf14797a5c0dcbd98325159/artifacts
+end_time: 1698241283875
+entry_point_name: ''
+experiment_id: '200800820279152034'
+lifecycle_stage: active
+run_id: 571aec43fbf14797a5c0dcbd98325159
+run_name: SVM - Linear Kernel
+run_uuid: 571aec43fbf14797a5c0dcbd98325159
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698241283311
+status: 3
+tags: []
+user_id: enric

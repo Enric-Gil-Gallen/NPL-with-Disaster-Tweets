@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1%20-%20Inteligencia%20Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/mlruns/200800820279152034/a1b74f961da148d29268669f87f1f3b3/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '200800820279152034'
+lifecycle_stage: active
+run_id: a1b74f961da148d29268669f87f1f3b3
+run_name: Session Initialized d391
+run_uuid: a1b74f961da148d29268669f87f1f3b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698230763347
+status: 1
+tags: []
+user_id: enric

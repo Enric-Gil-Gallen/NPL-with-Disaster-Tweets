@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1%20-%20Inteligencia%20Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/mlruns/200800820279152034/512e3c601d294ae2af5b8f02819974cd/artifacts
+end_time: 1698241284697
+entry_point_name: ''
+experiment_id: '200800820279152034'
+lifecycle_stage: active
+run_id: 512e3c601d294ae2af5b8f02819974cd
+run_name: Light Gradient Boosting Machine
+run_uuid: 512e3c601d294ae2af5b8f02819974cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698241284165
+status: 3
+tags: []
+user_id: enric
