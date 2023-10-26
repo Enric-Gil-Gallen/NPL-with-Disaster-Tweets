@@ -23,9 +23,9 @@ def clean_text_field(pandas_dataset):
             raise ValueError("El DataFrame proporcionado no tiene una columna 'text'.")
 
         df['text'] = pandas_dataset['text'].apply(remove_url)
-        df['text'] = pandas_dataset['text'].apply(remove_punctuation)
         df['text'] = pandas_dataset['text'].apply(remove_html)
         df['text'] = pandas_dataset['text'].apply(remove_emoji)
+        df['text'] = pandas_dataset['text'].apply(remove_punctuation)
         df['text'] = pandas_dataset['text'].apply(remove_stopwords)
 
         return df
