@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1 - Inteligencia Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/../../mlflow/548327397397163298/9225d1a6839d48c68014c0366afaf6de/artifacts
+end_time: 1698690835218
+entry_point_name: ''
+experiment_id: '548327397397163298'
+lifecycle_stage: active
+run_id: 9225d1a6839d48c68014c0366afaf6de
+run_name: SVM - Linear Kernel
+run_uuid: 9225d1a6839d48c68014c0366afaf6de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698690834976
+status: 3
+tags: []
+user_id: enric

@@ -135,4 +135,12 @@ def curva_precision_recall(y_prob, Y_val):
     # plt.show()
     return fig
 
+def evolution_keras_train(dataframe):
+    fig, ax = plt.subplots()
+    dataframe.plot(ax=ax) 
+    ax.grid(True)
+    ax.set_ylim(0, 1.2)
+    ax.set_xlabel("epochs")
+
+    return fig
 

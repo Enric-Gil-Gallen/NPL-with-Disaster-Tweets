@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1 - Inteligencia Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/../../mlflow/548327397397163298/3221101725744720851b1681229851fd/artifacts
+end_time: 1698690834857
+entry_point_name: ''
+experiment_id: '548327397397163298'
+lifecycle_stage: active
+run_id: 3221101725744720851b1681229851fd
+run_name: Random Forest Classifier
+run_uuid: 3221101725744720851b1681229851fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698690834665
+status: 3
+tags: []
+user_id: enric

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1 - Inteligencia Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/../../mlflow/548327397397163298/b9dfbb2623d84075a47d1d9da9ad9ea8/artifacts
+end_time: 1698690837990
+entry_point_name: ''
+experiment_id: '548327397397163298'
+lifecycle_stage: active
+run_id: b9dfbb2623d84075a47d1d9da9ad9ea8
+run_name: Naive Bayes
+run_uuid: b9dfbb2623d84075a47d1d9da9ad9ea8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698690837722
+status: 3
+tags: []
+user_id: enric

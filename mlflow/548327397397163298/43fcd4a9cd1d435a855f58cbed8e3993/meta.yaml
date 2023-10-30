@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1 - Inteligencia Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/../../mlflow/548327397397163298/43fcd4a9cd1d435a855f58cbed8e3993/artifacts
+end_time: 1698690836013
+entry_point_name: ''
+experiment_id: '548327397397163298'
+lifecycle_stage: active
+run_id: 43fcd4a9cd1d435a855f58cbed8e3993
+run_name: Decision Tree Classifier
+run_uuid: 43fcd4a9cd1d435a855f58cbed8e3993
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698690835783
+status: 3
+tags: []
+user_id: enric

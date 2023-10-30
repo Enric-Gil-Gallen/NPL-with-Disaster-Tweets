@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1 - Inteligencia Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/../../mlflow/548327397397163298/373438167f9048818bd47245181027da/artifacts
+end_time: 1698690838386
+entry_point_name: ''
+experiment_id: '548327397397163298'
+lifecycle_stage: active
+run_id: 373438167f9048818bd47245181027da
+run_name: Dummy Classifier
+run_uuid: 373438167f9048818bd47245181027da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698690838158
+status: 3
+tags: []
+user_id: enric

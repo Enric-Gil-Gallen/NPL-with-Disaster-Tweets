@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1 - Inteligencia Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/../../mlflow/548327397397163298/66e4bbc2cd97499db8f5704de8aa8e9a/artifacts
+end_time: 1698690837040
+entry_point_name: ''
+experiment_id: '548327397397163298'
+lifecycle_stage: active
+run_id: 66e4bbc2cd97499db8f5704de8aa8e9a
+run_name: Gradient Boosting Classifier
+run_uuid: 66e4bbc2cd97499db8f5704de8aa8e9a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698690836764
+status: 3
+tags: []
+user_id: enric

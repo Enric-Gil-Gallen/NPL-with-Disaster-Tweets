@@ -1,0 +1,19 @@
+artifact_path: 3_Keras
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.8.18
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.2
+mlflow_version: 2.6.0
+model_uuid: 6ed20f555fd6431db0a148a79adef324
+run_id: 242a26b4354e4df69736e4270829f848
+utc_time_created: '2023-10-30 16:56:59.719536'

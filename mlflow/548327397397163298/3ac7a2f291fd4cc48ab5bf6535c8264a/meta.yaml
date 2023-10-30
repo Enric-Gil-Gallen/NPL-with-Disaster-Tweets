@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1 - Inteligencia Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/../../mlflow/548327397397163298/3ac7a2f291fd4cc48ab5bf6535c8264a/artifacts
+end_time: 1698683705218
+entry_point_name: ''
+experiment_id: '548327397397163298'
+lifecycle_stage: active
+run_id: 3ac7a2f291fd4cc48ab5bf6535c8264a
+run_name: 1-Keras
+run_uuid: 3ac7a2f291fd4cc48ab5bf6535c8264a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698683695865
+status: 4
+tags: []
+user_id: enric

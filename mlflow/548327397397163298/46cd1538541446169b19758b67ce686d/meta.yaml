@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1 - Inteligencia Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/../../mlflow/548327397397163298/46cd1538541446169b19758b67ce686d/artifacts
+end_time: 1698690834561
+entry_point_name: ''
+experiment_id: '548327397397163298'
+lifecycle_stage: active
+run_id: 46cd1538541446169b19758b67ce686d
+run_name: Ridge Classifier
+run_uuid: 46cd1538541446169b19758b67ce686d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698690834396
+status: 3
+tags: []
+user_id: enric

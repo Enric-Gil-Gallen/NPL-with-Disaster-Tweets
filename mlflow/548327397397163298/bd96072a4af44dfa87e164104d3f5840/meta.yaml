@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1 - Inteligencia Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/../../mlflow/548327397397163298/bd96072a4af44dfa87e164104d3f5840/artifacts
+end_time: 1698690837465
+entry_point_name: ''
+experiment_id: '548327397397163298'
+lifecycle_stage: active
+run_id: bd96072a4af44dfa87e164104d3f5840
+run_name: Linear Discriminant Analysis
+run_uuid: bd96072a4af44dfa87e164104d3f5840
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698690837207
+status: 3
+tags: []
+user_id: enric

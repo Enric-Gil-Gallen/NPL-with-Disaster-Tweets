@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1 - Inteligencia Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/../../mlflow/548327397397163298/d5682f8a1043402ba30580a9c43e9ef4/artifacts
+end_time: 1698690838806
+entry_point_name: ''
+experiment_id: '548327397397163298'
+lifecycle_stage: active
+run_id: d5682f8a1043402ba30580a9c43e9ef4
+run_name: Quadratic Discriminant Analysis
+run_uuid: d5682f8a1043402ba30580a9c43e9ef4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698690838535
+status: 3
+tags: []
+user_id: enric
