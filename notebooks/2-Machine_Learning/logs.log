@@ -3225,3 +3225,67 @@ numpy.core._exceptions._ArrayMemoryError: Unable to allocate 369. MiB for an arr
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2023-10-26 10:56:23,641:WARNING:
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-26 10:57:17,408:WARNING:c:\Users\enric\.conda\envs\npl-tweets\lib\site-packages\sklearn\utils\validation.py:1183: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2023-10-26 11:15:55,007:WARNING:c:\Users\enric\.conda\envs\npl-tweets\lib\site-packages\sklearn\model_selection\_validation.py:425: FitFailedWarning: 
+30 fits failed out of a total of 60.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+30 fits failed with the following error:
+Traceback (most recent call last):
+  File "c:\Users\enric\.conda\envs\npl-tweets\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "c:\Users\enric\.conda\envs\npl-tweets\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "c:\Users\enric\.conda\envs\npl-tweets\lib\site-packages\sklearn\linear_model\_logistic.py", line 1169, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "c:\Users\enric\.conda\envs\npl-tweets\lib\site-packages\sklearn\linear_model\_logistic.py", line 56, in _check_solver
+    raise ValueError(
+ValueError: Solver lbfgs supports only 'l2' or 'none' penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2023-10-26 11:15:55,062:WARNING:c:\Users\enric\.conda\envs\npl-tweets\lib\site-packages\sklearn\model_selection\_search.py:979: UserWarning: One or more of the test scores are non-finite: [       nan 0.41435011        nan 0.41435011        nan 0.62098197
+        nan 0.62098197        nan 0.7907381         nan 0.7907381 ]
+  warnings.warn(
+
+2023-10-26 11:15:57,709:WARNING:c:\Users\enric\.conda\envs\npl-tweets\lib\site-packages\sklearn\utils\validation.py:1183: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2023-10-26 12:05:36,823:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-26 12:05:36,823:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-26 12:05:36,823:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-26 12:05:36,823:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-26 12:07:19,135:WARNING:c:\Users\enric\.conda\envs\npl-tweets\lib\site-packages\sklearn\utils\validation.py:1183: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2023-10-26 12:11:29,910:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-26 12:11:29,910:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-26 12:11:29,910:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-26 12:11:29,910:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-26 12:13:18,539:WARNING:c:\Users\enric\.conda\envs\npl-tweets\lib\site-packages\sklearn\utils\validation.py:1183: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2023-10-26 12:17:53,461:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-26 12:17:53,463:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-26 12:17:53,463:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-26 12:17:53,463:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-26 12:19:41,912:WARNING:c:\Users\enric\.conda\envs\npl-tweets\lib\site-packages\sklearn\utils\validation.py:1183: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+

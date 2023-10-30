@@ -1,8 +1,0 @@
-channels:
-- conda-forge
-dependencies:
-- pip<=23.3
-- pip:
-  - mlflow==2.6.0
-  - pycaret==3.1.0
-name: pycaret_1-env

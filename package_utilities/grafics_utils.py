@@ -79,12 +79,13 @@ def matriz_confusion(y_pred, Y_val):
     cm = confusion_matrix(Y_val, y_pred)
     
     # 2. Graficar la matriz de confusión usando seaborn
-    plt.figure()
-    sns.heatmap(cm, annot=True, fmt='3g', cmap='Blues')
-    plt.xlabel('Etiquetas Predichas')
-    plt.ylabel('Etiquetas Verdaderas')
-    plt.title('Matriz de Confusión')
-    plt.show()
+    fig, ax = plt.subplots()
+    sns.heatmap(cm, annot=True, fmt='3g', cmap='Blues', ax=ax)
+    ax.set_xlabel('Etiquetas Predichas')
+    ax.set_ylabel('Etiquetas Verdaderas')
+    ax.set_title('Matriz de Confusión')
+    # plt.show()
+    return fig
 
 def curva_roc(y_prob, Y_val):
     """
@@ -101,14 +102,15 @@ def curva_roc(y_prob, Y_val):
     roc_auc = auc(tfp, tvp)
     
     # 3. Graficar la Curva ROC
-    plt.figure()
-    plt.plot(tfp, tvp, color='darkorange', label='Curva ROC (área = %0.2f)' % roc_auc)
-    plt.plot([0, 1], [0, 1], color='navy', linestyle='--')
-    plt.xlabel('Tasa de Falsos Positivos')
-    plt.ylabel('Tasa de Verdaderos Positivos')
-    plt.title('Curva ROC')
-    plt.legend(loc="lower right")
-    plt.show()
+    fig, ax = plt.subplots()
+    ax.plot(tfp, tvp, color='darkorange', label='Curva ROC (área = %0.2f)' % roc_auc)
+    ax.plot([0, 1], [0, 1], color='navy', linestyle='--')
+    ax.set_xlabel('Tasa de Falsos Positivos')
+    ax.set_ylabel('Tasa de Verdaderos Positivos')
+    ax.set_title('Curva ROC')
+    #plt.show() 
+
+    return fig
 
 def curva_precision_recall(y_prob, Y_val):
     """
@@ -125,11 +127,12 @@ def curva_precision_recall(y_prob, Y_val):
     precision_promedio = average_precision_score(Y_val, y_prob)
 
     # 3. Graficar la curva de precisión-recall
-    plt.figure()
-    plt.plot(recall, precision, label='Curva Precisión-Recall: AP={0:0.2f}'.format(precision_promedio))
-    plt.xlabel('Recall')
-    plt.ylabel('Precisión')
-    plt.title('Curva de Precisión-Recall')
-    plt.legend(loc="upper right")
-    plt.show()
+    fig, ax = plt.subplots()
+    ax.plot(recall, precision, label='Curva Precisión-Recall: AP={0:0.2f}'.format(precision_promedio))
+    ax.set_xlabel('Recall')
+    ax.set_ylabel('Precisión')
+    ax.set_title('Curva de Precisión-Recall')
+    # plt.show()
+    return fig
+
 

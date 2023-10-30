@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/enric/Documents/1 - Inteligencia Artificial/Proyectos/NPL-with-Disaster-Tweets/notebooks/2-Machine_Learning/../../mlflow/548327397397163298/c1d235054ce64de088bef40077a1d33d/artifacts
+end_time: 1698331541482
+entry_point_name: ''
+experiment_id: '548327397397163298'
+lifecycle_stage: active
+run_id: c1d235054ce64de088bef40077a1d33d
+run_name: 1_LogisticRegression
+run_uuid: c1d235054ce64de088bef40077a1d33d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698331528766
+status: 3
+tags: []
+user_id: enric
