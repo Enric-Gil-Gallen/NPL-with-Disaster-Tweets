@@ -3,7 +3,8 @@
 ## Objective
 
 This project aims to develop an artificial intelligence model capable of discerning whether a tweet is related to natural disasters. It utilizes both Machine Learning and Deep Learning techniques and the methodology of MLOps.
-    https://www.kaggle.com/vstepanenko/disaster-tweets
+
+`Data Source`: https://www.kaggle.com/vstepanenko/disaster-tweets
     
 ## Project Structure
 
@@ -42,7 +43,8 @@ This project aims to develop an artificial intelligence model capable of discern
 ## Objetivo
 
 Este proyecto tiene como meta el desarrollo de un modelo de inteligencia artificial capaz de discernir si un tweet está relacionado con desastres naturales. Utilizando técnicas tanto de Machine Learning como Deep Learning y la metodología de MLOps.
-    https://www.kaggle.com/vstepanenko/disaster-tweets
+
+`Funete de datos`: https://www.kaggle.com/vstepanenko/disaster-tweets
     
 ## Estructura del Proyecto
 
