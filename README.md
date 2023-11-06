@@ -27,8 +27,8 @@ This project aims to develop an artificial intelligence model capable of discern
 - `1-Testeo_modelo.ipynb`: Rigorous testing of different algorithms and a wide range of hyperparameters, with meticulously recorded results in MLflow to facilitate repetition and refinement.
 
 ### Deep Learning
-
-- `0-Implementacion_RNA.ipynb`: Experimentation with various advanced neural network architectures, documenting each step in MLflow.
+- `0-Pruebas_seleccion_hiperparametros.ipynb`: Hyperparameter tuning, testing different architectures.
+- `1-Testeo_modelo.ipynb`: Experimentation with various advanced neural network architectures, documenting each step in MLflow.
 
 ## Future Implementation Roadmap
 
@@ -68,8 +68,9 @@ Este proyecto tiene como meta el desarrollo de un modelo de inteligencia artific
 
 ### Deep Learning
 
-- `0-Implementacion_RNA.ipynb`: Experimentación con diversas arquitecturas de redes neuronales avanzadas, documentando cada paso en MLflow.
-
+- `0-Pruebas_seleccion_hiperparametros.ipynb`: Hypertuning, prueba de distintas arquitecturas.
+- `1-Testeo_modelo.ipynb`: Experimentación con diversas arquitecturas de redes neuronales avanzadas, documentando cada paso en MLflow.
+  
 ## Roadmap de Implementaciones Futuras
 
 - `DockerFile`: Para contenerizar el entorno de desarrollo y asegurar la consistencia a través de las plataformas.
