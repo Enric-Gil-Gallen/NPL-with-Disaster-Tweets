@@ -13,6 +13,7 @@ This project aims to develop an artificial intelligence model capable of discern
 - `models`: This is where the trained models are stored, allowing for easy access and efficient local version management.
 - `notebooks`: Contains the core of the model development, with detailed notebooks documenting each step of the creation and refinement process.
 - `package_utils`: A custom package designed to maximize code reusability, adaptable to the changing needs of the project.
+- `DockerFile`: To containerize the development environment and ensure consistency across platforms.
 
 ## Development Phases
 
@@ -32,7 +33,6 @@ This project aims to develop an artificial intelligence model capable of discern
 
 ## Future Implementation Roadmap
 
-- `DockerFile`: To containerize the development environment and ensure consistency across platforms.
 - `API`: Development of a robust API to facilitate integration and programmatic interaction with the model.
 - `Web App`: Creation of an interactive web application to democratize the use of the model and enable real-time access.
 
@@ -53,6 +53,7 @@ Este proyecto tiene como meta el desarrollo de un modelo de inteligencia artific
 - `models`: Aquí se almacenan los modelos entrenados, permitiendo un acceso fácil y una gestión eficiente de las versiones locales.
 - `notebooks`: Contiene el núcleo del desarrollo del modelo, con notebooks detallados que documentan cada paso del proceso de creación y afinamiento del modelo.
 - `package_utils`: Un paquete personalizado diseñado para maximizar la reutilización de código, adaptable a las necesidades cambiantes del proyecto.
+- `DockerFile`: Para contenerizar el entorno de desarrollo y asegurar la consistencia a través de las plataformas.
 
 ## Fases de Desarrollo
 
@@ -73,6 +74,5 @@ Este proyecto tiene como meta el desarrollo de un modelo de inteligencia artific
   
 ## Roadmap de Implementaciones Futuras
 
-- `DockerFile`: Para contenerizar el entorno de desarrollo y asegurar la consistencia a través de las plataformas.
 - `API`: Desarrollo de una API robusta para facilitar la integración y la interacción programática con el modelo.
 - `Web App`: Creación de una aplicación web interactiva para democratizar el uso del modelo y permitir su acceso en tiempo real.
