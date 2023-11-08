@@ -23,7 +23,7 @@ class Tweet_BaseModel(BaseModel):
 def index():
     return {'tweet': 'Introduce /docs para poder ejecutar'}
 
-@app.post('/predict')
+@app.route('/predict',methods=['POST'])
 def predict(tweet: Tweet_BaseModel):
     # Preparar datos
     vectorized_data = vectorizer.transform([tweet.tweet])  # Se debe pasar una lista al transform y acceder al atributo de la instancia.

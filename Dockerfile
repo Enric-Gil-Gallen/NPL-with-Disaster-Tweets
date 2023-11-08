@@ -1,5 +1,5 @@
 # Usamos una imagen base con la versión específica de Python que necesitamos
-FROM python:3.8.18
+FROM python:3.8-slim
 
 # Establecer directorio de trabajo
 WORKDIR /usr/src/NPL-WITH-DISASTER-TWEETS
