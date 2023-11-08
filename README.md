@@ -2,7 +2,9 @@
 
 ## Objective
 
-This project aims to develop an artificial intelligence model capable of discerning whether a tweet is related to natural disasters. It utilizes both Machine Learning and Deep Learning techniques and the methodology of MLOps.
+This project aims to develop an artificial intelligence model capable of discerning whether a tweet is related to natural disasters. 
+Leveraging the MLOps framework, we conduct a comprehensive data analysis (EDA) using both Machine Learning and Deep Learning techniques. Each model is meticulously logged in MLflow, ensuring a thorough examination to identify the optimal solution. Subsequently, these solutions are implemented in a robust API and a fully customizable web application, providing intuitive and efficient user interfaces for the end user.
+
 
 `Data Source`: https://www.kaggle.com/vstepanenko/disaster-tweets
     
@@ -13,6 +15,8 @@ This project aims to develop an artificial intelligence model capable of discern
 - `models`: This is where the trained models are stored, allowing for easy access and efficient local version management.
 - `notebooks`: Contains the core of the model development, with detailed notebooks documenting each step of the creation and refinement process.
 - `package_utils`: A custom package designed to maximize code reusability, adaptable to the changing needs of the project.
+- - `API`: This is a robust API developed using FastAPI that provides the functionality to interact with the chosen model via a POST method. It is designed to analyze text (such as tweets) to determine if it relates to disasters. Additionally, it includes a Dockerfile to ensure the application can be easily deployed and replicated on any machine.
+- `web_app`: This is a web application developed with Flask, HTML, and CSS that facilitates the use of the selected model. It features an intuitive form where users can input text, which is then evaluated by the model to assess whether it pertains to disasters. A Dockerfile is also provided, enabling straightforward deployment across different machines.
 - `DockerFile`: To containerize the development environment and ensure consistency across platforms.
 
 ## Development Phases
@@ -38,9 +42,8 @@ This project aims to develop an artificial intelligence model capable of discern
 - `api.py`: A fully operational API that enables efficient POST request handling and result retrieval.
 - Additionally, a Dockerfile is included to simplify its deployment and usage.
 
-## Future Implementation Roadmap
-
-- `Web App`: Creation of an interactive web application to democratize the use of the model and enable real-time access.
+### App Web
+- `app.py`: Creation of an interactive web application to democratize the use of the model and allow real-time access.
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -48,7 +51,8 @@ This project aims to develop an artificial intelligence model capable of discern
 
 ## Objetivo
 
-Este proyecto tiene como meta el desarrollo de un modelo de inteligencia artificial capaz de discernir si un tweet está relacionado con desastres naturales. Utilizando técnicas tanto de Machine Learning como Deep Learning y la metodología de MLOps.
+Este proyecto tiene como meta el desarrollo de un modelo de inteligencia artificial capaz de discernir si un tweet está relacionado con desastres naturales. 
+Empleando la metodología de MLOps, se desarrolla un análisis de datos exhaustivo (EDA) utilizando técnicas avanzadas de Machine Learning y Deep Learning. Cada modelo es meticulosamente registrado en MLflow, asegurando un estudio detallado para identificar la solución óptima. Posteriormente, estas soluciones se implementan en una API robusta y en una aplicación web totalmente personalizable, proporcionando interfaces intuitivas y eficientes para el usuario final.
 
 `Funete de datos`: https://www.kaggle.com/vstepanenko/disaster-tweets
     
@@ -59,6 +63,8 @@ Este proyecto tiene como meta el desarrollo de un modelo de inteligencia artific
 - `models`: Aquí se almacenan los modelos entrenados, permitiendo un acceso fácil y una gestión eficiente de las versiones locales.
 - `notebooks`: Contiene el núcleo del desarrollo del modelo, con notebooks detallados que documentan cada paso del proceso de creación y afinamiento del modelo.
 - `package_utils`: Un paquete personalizado diseñado para maximizar la reutilización de código, adaptable a las necesidades cambiantes del proyecto.
+- `API`: Esta es una API robusta desarrollada con FastAPI que proporciona la funcionalidad para interactuar con el modelo elegido a través de un método POST. Está diseñada para analizar textos (como tweets) para determinar si están relacionados con desastres. Además, incluye un Dockerfile para garantizar que la aplicación se pueda implementar y replicar fácilmente en cualquier máquina.
+- `web_app`: Esta es una aplicación web desarrollada con Flask, HTML y CSS que facilita el uso del modelo seleccionado. Cuenta con un formulario intuitivo donde los usuarios pueden ingresar texto, que luego es evaluado por el modelo para determinar si se refiere a desastres. También se proporciona un Dockerfile, que permite una implementación sencilla en diferentes máquinas.
 - `DockerFile`: Para contenerizar el entorno de desarrollo y asegurar la consistencia a través de las plataformas.
 
 ## Fases de Desarrollo
@@ -86,6 +92,5 @@ Este proyecto tiene como meta el desarrollo de un modelo de inteligencia artific
 - `api.py: API totalmente funcional que permite realizar solicitudes POST y obtener resultados de manera eficiente.
 - Además, se incluye un Dockerfile diseñado para facilitar su uso y despliegue sin complicaciones.
   
-## Roadmap de Implementaciones Futuras
-
-- `Web App`: Creación de una aplicación web interactiva para democratizar el uso del modelo y permitir su acceso en tiempo real.
+### App Web
+- `app.py`: Creación de una aplicación web interactiva para democratizar el uso del modelo y permitir su acceso en tiempo real.
