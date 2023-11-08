@@ -33,10 +33,13 @@ This project aims to develop an artificial intelligence model capable of discern
 
 ### Model Interpretability
 - `0-interpretability_modelos.ipynb`: Analyze and understand the inner workings of the models.
-  
+
+### API
+- `api.py`: A fully operational API that enables efficient POST request handling and result retrieval.
+- Additionally, a Dockerfile is included to simplify its deployment and usage.
+
 ## Future Implementation Roadmap
 
-- `API`: Development of a robust API to facilitate integration and programmatic interaction with the model.
 - `Web App`: Creation of an interactive web application to democratize the use of the model and enable real-time access.
 
 
@@ -78,8 +81,11 @@ Este proyecto tiene como meta el desarrollo de un modelo de inteligencia artific
 ### Interpretabilidad del modelo
 
 - `0-interpretability_modelos.ipynb`: Analizar y comprender el funcionamiento interno de los modelos.
+
+### API
+- `api.py: API totalmente funcional que permite realizar solicitudes POST y obtener resultados de manera eficiente.
+- Además, se incluye un Dockerfile diseñado para facilitar su uso y despliegue sin complicaciones.
   
 ## Roadmap de Implementaciones Futuras
 
-- `API`: Desarrollo de una API robusta para facilitar la integración y la interacción programática con el modelo.
 - `Web App`: Creación de una aplicación web interactiva para democratizar el uso del modelo y permitir su acceso en tiempo real.
