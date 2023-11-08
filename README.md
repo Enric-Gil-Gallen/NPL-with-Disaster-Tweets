@@ -31,6 +31,9 @@ This project aims to develop an artificial intelligence model capable of discern
 - `0-Pruebas_seleccion_hiperparametros.ipynb`: Hyperparameter tuning, testing different architectures.
 - `1-Testeo_modelo.ipynb`: Experimentation with various advanced neural network architectures, documenting each step in MLflow.
 
+### Model Interpretability
+- `0-interpretability_modelos.ipynb`: Analyze and understand the inner workings of the models.
+  
 ## Future Implementation Roadmap
 
 - `API`: Development of a robust API to facilitate integration and programmatic interaction with the model.
@@ -71,6 +74,10 @@ Este proyecto tiene como meta el desarrollo de un modelo de inteligencia artific
 
 - `0-Pruebas_seleccion_hiperparametros.ipynb`: Hypertuning, prueba de distintas arquitecturas.
 - `1-Testeo_modelo.ipynb`: Experimentación con diversas arquitecturas de redes neuronales avanzadas, documentando cada paso en MLflow.
+
+### Interpretabilidad del modelo
+
+- `0-interpretability_modelos.ipynb`: Analizar y comprender el funcionamiento interno de los modelos.
   
 ## Roadmap de Implementaciones Futuras
 
